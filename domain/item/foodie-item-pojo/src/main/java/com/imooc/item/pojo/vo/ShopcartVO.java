@@ -1,5 +1,8 @@
 package com.imooc.item.pojo.vo;
 
+/**
+ * 第二个新增的
+ */
 public class ShopcartVO {
 
     private String itemId;

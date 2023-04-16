@@ -2,6 +2,10 @@ package com.imooc.item.pojo.vo;
 
 import java.util.Date;
 
+/**
+ * 第二个新增的
+ */
+
 public class MyCommentVO {
 
     private String commentId;

@@ -1,6 +1,7 @@
 package com.imooc.item.pojo.vo;
 
 /**
+ * 第二个新增的
  * 用于展示商品评价数量的vo
  */
 public class CommentLevelCountsVO {

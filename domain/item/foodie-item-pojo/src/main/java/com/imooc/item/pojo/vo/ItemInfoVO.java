@@ -8,6 +8,7 @@ import com.imooc.item.pojo.ItemsSpec;
 import java.util.List;
 
 /**
+ * 第二个新增的
  * 商品详情VO
  */
 public class ItemInfoVO {

@@ -1,4 +1,7 @@
 package com.imooc.item.pojo;
+/**
+ * 第二个新增的
+ */
 
 import javax.persistence.Column;
 import javax.persistence.Id;

@@ -2,6 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<!--    商品模块微服务划分-->
     <parent>
         <artifactId>foodie-cloud</artifactId>
         <groupId>com.imooc</groupId>
@@ -13,11 +14,14 @@
     <artifactId>foodie-item-pojo</artifactId>
 
     <dependencies>
+<!--        持久化api-->
         <dependency>
             <groupId>javax.persistence</groupId>
             <artifactId>persistence-api</artifactId>
             <version>1.0</version>
         </dependency>
+
+<!--        参数校验-->
         <dependency>
             <groupId>org.hibernate.validator</groupId>
             <artifactId>hibernate-validator</artifactId>

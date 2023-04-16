@@ -3,6 +3,7 @@ package com.imooc.item.pojo.vo;
 import java.util.Date;
 
 /**
+ * 第二个新增的
  * 用于展示商品评价的VO
  */
 public class ItemCommentVO {
