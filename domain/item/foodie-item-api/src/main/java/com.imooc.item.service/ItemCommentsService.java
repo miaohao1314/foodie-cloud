@@ -5,8 +5,10 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
 
+
 /**
- * Created by 半仙.
+ * by  miaohao
+ * 微服务商品评论接口层改动
  */
 @RequestMapping("item-comments-api")
 public interface ItemCommentsService {

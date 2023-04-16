@@ -11,11 +11,17 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
 
+/**
+ * 微服务商品接口层改动
+ * 指定路径
+ */
+
 @RequestMapping("item-api")
 public interface ItemService {
 
     /**
      * 根据商品ID查询详情
+     * @RequestParam： 指定参数属性名
      * @param itemId
      * @return
      */
