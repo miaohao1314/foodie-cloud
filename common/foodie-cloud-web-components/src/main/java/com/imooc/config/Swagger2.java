@@ -26,7 +26,7 @@ public class Swagger2 {
                     .apiInfo(apiInfo())                 // 用于定义api文档汇总信息
                     .select()
                     .apis(RequestHandlerSelectors
-                            .withClassAnnotation(RestController.class) // 指定Service上的RestController注解
+                            .withClassAnnotation(RestController.class) // 指定Service上的RestController注解（所有有这个注解的类将被扫描到）
 //                            .basePackage("com.imooc.controller"))   // 指定controller包
                     )
                     .paths(PathSelectors.any())         // 所有controller

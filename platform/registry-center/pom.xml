@@ -12,6 +12,8 @@
 
     <artifactId>registry-center</artifactId>
 
+
+<!--    引入cloud-->
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -24,7 +26,9 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.1.5.RELEASE</version>
                 <configuration>
+<!--                    指定主类的方式-->
                     <mainClass>com.imooc.EurekaServerApplication</mainClass>
                 </configuration>
                 <executions>

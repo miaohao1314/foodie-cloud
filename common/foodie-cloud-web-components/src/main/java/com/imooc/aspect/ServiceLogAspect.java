@@ -36,6 +36,8 @@ public class ServiceLogAspect {
      * @param joinPoint
      * @return
      * @throws Throwable
+     * @Around("execution(* com.imooc..*.service.impl..*.*(..))")：
+     * 多引入一层微服务结构
      */
     @Around("execution(* com.imooc..*.service.impl..*.*(..))")
     public Object recordTimeLog(ProceedingJoinPoint joinPoint) throws Throwable {

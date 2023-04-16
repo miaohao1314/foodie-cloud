@@ -29,9 +29,9 @@ public class BaseController {
 
 
     // FIXME 下面的逻辑移植到订单中心
-//    @Autowired
-//    public MyOrdersService myOrdersService;
-//
+
+////    @Autowired
+////    public MyOrdersService myOrdersService;
 //    /**
 //     * 用于验证用户和订单是否有关联关系，避免非法用户调用
 //     * @return
