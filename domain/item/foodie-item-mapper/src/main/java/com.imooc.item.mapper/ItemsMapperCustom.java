@@ -6,7 +6,9 @@ import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 import java.util.Map;
-
+/**
+ * 商品模块mapper微服务改造
+ */
 public interface ItemsMapperCustom {
 
     public List<ItemCommentVO> queryItemComments(@Param("paramsMap") Map<String, Object> map);

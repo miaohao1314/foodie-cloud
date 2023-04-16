@@ -7,7 +7,9 @@ import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 import java.util.Map;
-
+/**
+ * 商品模块mapper微服务改造
+ */
 public interface ItemsCommentsMapperCustom extends MyMapper<ItemsComments> {
 
     public void saveComments(Map<String, Object> map);
