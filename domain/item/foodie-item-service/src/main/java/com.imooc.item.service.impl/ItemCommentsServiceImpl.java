@@ -18,7 +18,8 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by 半仙.
+ * Created by miaohao
+ *微服务改造 商品评论接口实现类-
  */
 @RestController
 public class ItemCommentsServiceImpl extends BaseService implements ItemCommentsService {

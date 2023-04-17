@@ -22,6 +22,12 @@ import tk.mybatis.mapper.entity.Example;
 
 import java.util.*;
 
+/**
+ *  微服务改造 商品接口实现类-->
+ *  eureka这里，需要把service层提供的服务声明成@RestController
+ *
+ */
+
 @RestController
 @Slf4j
 public class ItemServiceImpl implements ItemService {
