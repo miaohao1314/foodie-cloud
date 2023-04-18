@@ -1,9 +1,13 @@
 package com.imooc.item.controller;
 
 import com.imooc.controller.BaseController;
-import com.imooc.enums.YesOrNo;
-import com.imooc.item.pojo.*;
-import com.imooc.item.pojo.vo.*;
+import com.imooc.item.pojo.Items;
+import com.imooc.item.pojo.ItemsImg;
+import com.imooc.item.pojo.ItemsParam;
+import com.imooc.item.pojo.ItemsSpec;
+import com.imooc.item.pojo.vo.CommentLevelCountsVO;
+import com.imooc.item.pojo.vo.ItemInfoVO;
+import com.imooc.item.pojo.vo.ShopcartVO;
 import com.imooc.item.service.ItemService;
 import com.imooc.pojo.IMOOCJSONResult;
 import com.imooc.pojo.PagedGridResult;
@@ -15,6 +19,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+
+/**
+ *     引入商品模块controlller层-->
+ */
 
 @Api(value = "商品接口", tags = {"商品信息展示的相关接口"})
 @RestController

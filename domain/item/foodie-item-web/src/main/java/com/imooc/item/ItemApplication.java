@@ -7,7 +7,9 @@ import org.springframework.context.annotation.ComponentScan;
 import tk.mybatis.spring.annotation.MapperScan;
 
 /**
- * Created by 半仙.
+ * Created by miaohao
+ * 启动项目之前先保证将registry-center启动
+ * 启动成功以后访问： 127.0.0.1:20000
  */
 @SpringBootApplication
 // 扫描 mybatis 通用 mapper 所在的包

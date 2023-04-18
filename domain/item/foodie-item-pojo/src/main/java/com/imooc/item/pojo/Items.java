@@ -5,8 +5,10 @@ package com.imooc.item.pojo;
 
 import javax.persistence.Column;
 import javax.persistence.Id;
+import javax.persistence.Table;
 import java.util.Date;
 
+@Table(name = "items")
 public class Items {
     /**
      * 商品主键id
